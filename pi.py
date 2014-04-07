@@ -91,7 +91,7 @@ repo = git.Repo('.')
 def run():
     N = 200
     line = ''
-    current_date = start_date + datetime.timedelta(days=1)
+    current_date = start_date
     for p in pixels:
 
         if p:
