@@ -65,7 +65,7 @@ for digit in digits:
 
 
 def render_date(current_date, seconds):
-    d = current_date + datetime.timedelta(hours=3, seconds=seconds)
+    d = current_date + datetime.timedelta(hours=10, seconds=seconds)
     return d.strftime('%Y-%m-%dT%H:%M:%S')
 
 
